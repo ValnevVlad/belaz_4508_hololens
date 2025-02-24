@@ -1,0 +1,20 @@
+﻿  C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Il2CppOutputProject\IL2CPP\build\deploy\il2cpp.exe --compile-cpp --platform=WinRT --incremental-g-c-time-slice=3 --relative-data-path=Data/il2cpp_data --dotnetprofile=unityaot-win32 --usymtool-path=C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Il2CppOutputProject\/IL2CPP/usymtool.exe --profiler-report --print-command-line --static-lib-il2-cpp --architecture=ARM64 --configuration=Release --outputpath=C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\\build\bin\ARM64\Release\GameAssembly.dll --data-folder=C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\\build\bin\ARM64\Release\ --cachedirectory=C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\\build\obj\il2cppOutputProject\ARM64\Release\ --generatedcppdir=C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Il2CppOutputProject\\Source\il2cppOutput --verbose --baselib-directory=C:\Program Files\Unity 2023.2.20f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release --profiler-output-file=C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\\build\obj\il2cppOutputProject\ARM64\Release\profile.json
+  Starting: C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Il2CppOutputProject\IL2CPP\build\deploy\bee_backend\win-x64\bee_backend.exe --verbose --threads=16 --dont-print-to-structured-log --ipc --dagfile="C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/obj/il2cppOutputProject/ARM64/Release/buildstate/bee.dag" --continue-on-failure --profile="C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/obj/il2cppOutputProject/ARM64/Release/buildstate/backend1.traceevents" FinalProgram
+  WorkingDir: C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/obj/il2cppOutputProject/ARM64/Release/buildstate
+  Rebuilding DAG because directory contents changed: C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/bin/ARM64/Release
+  *** il2cpp requires additional run (0.06 seconds), 0 items updated, 0 evaluated
+  ExitCode: 4 Duration: 0s81ms
+  Starting: C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Il2CppOutputProject\IL2CPP\build\deploy\bee_backend\win-x64\bee_backend.exe --verbose --threads=16 --dont-print-to-structured-log --ipc --dagfile="C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/obj/il2cppOutputProject/ARM64/Release/buildstate/bee.dag" --continue-on-failure --dagfilejson="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\obj\il2cppOutputProject\ARM64\Release\buildstate\bee.dag.json" --profile="C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/obj/il2cppOutputProject/ARM64/Release/buildstate/backend2.traceevents" FinalProgram
+  WorkingDir: C:/Users/SE_001/Documents/UnityProjects/Belaz_4508/Build/build/obj/il2cppOutputProject/ARM64/Release/buildstate
+  Finished compiling graph: 959 nodes, 2049 flattened edges (2048 ToBuild, 5 ToUse), maximum node priority 18
+  [250/958    0s] PbdDependencyFix giik/il2cpp_compiler.pdb
+  ##### CommandLine
+  echo 
+  ##### Output
+  ECHO is on.
+  *** il2cpp build success (0.31 seconds), 1 items updated, 958 evaluated
+  ExitCode: 0 Duration: 0s327ms
+  Success: 
+  
+  
+  

@@ -1,0 +1,47 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="M2MqttUnity.Examples.M2MqttUnity_ScadaBelaz">
+			<method name="StartMotor"/>
+			<method name="StopMotor"/>
+			<method name="WriteSliderValue"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AnimationModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Animator">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="Play"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioSource">
+			<method name="Play"/>
+			<method name="Play"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="PlayOneShot"/>
+			<method name="Stop"/>
+			<method name="Stop"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Behaviour">
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+			<method name="set_enabled"/>
+		</type>
+		<type fullname="UnityEngine.GameObject">
+			<method name="SetActive"/>
+			<method name="SetActive"/>
+		</type>
+	</assembly>
+</linker>

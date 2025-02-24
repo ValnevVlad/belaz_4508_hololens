@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10" xmlns:mobile="http://schemas.microsoft.com/appx/manifest/mobile/windows10" IgnorableNamespaces="uap uap2 uap3 uap4 mp mobile iot build" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build">
+  <!--
+    ЭТОТ ФАЙЛ МАНИФЕСТА ПАКЕТА СОЗДАН ПРОЦЕССОМ СБОРКИ.
+
+    Изменения этого файла будут потеряны при его повторном создании. Чтобы исправить ошибки в этом файле, измените исходный файл .appxmanifest.
+
+ Дополнительные сведения о файлах манифестов приложений см. по адресу http://go.microsoft.com/fwlink/?LinkID=241727
+  -->
+  <Identity Name="Belaz45082" Publisher="CN=Mining University" Version="1.0.0.0" ProcessorArchitecture="arm64" />
+  <mp:PhoneIdentity PhoneProductId="f470ff4d-a545-4550-9ec4-d80776f1db76" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Belaz_4508_2</DisplayName>
+    <PublisherDisplayName>Mining University</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.19041.0" MaxVersionTested="10.0.26100.0" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.33519.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="EN-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="Belaz_4508_2.exe" EntryPoint="Belaz45082.App">
+      <uap:VisualElements DisplayName="Belaz_4508_2" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="Belaz_4508" BackgroundColor="transparent">
+        <uap:DefaultTile ShortName="Belaz_4508" Wide310x150Logo="Assets\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#FFFFFF" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+          <uap:Rotation Preference="landscapeFlipped" />
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="portraitFlipped" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <uap2:Capability Name="spatialPerception" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="gazeinput" />
+  </Capabilities>
+  <Extensions>
+    <Extension Category="windows.activatableClass.inProcessServer">
+      <InProcessServer>
+        <Path>UnityPlayer.dll</Path>
+        <ActivatableClass ActivatableClassId="UnityPlayer.AppCallbacks" ThreadingModel="both" />
+        <ActivatableClass ActivatableClassId="UnityPlayer.XamlViewManager" ThreadingModel="both" />
+      </InProcessServer>
+    </Extension>
+  </Extensions>
+  <build:Metadata>
+    <build:Item Name="cl.exe" Version="19.42.34436.0" />
+    <build:Item Name="CodeSharingProject" Value="6A2255BE-B368-4127-9782-BD762DEA33C5" />
+    <build:Item Name="VisualStudio" Version="17.0" />
+    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2022" />
+    <build:Item Name="OperatingSystem" Version="10.0.19041.1 (WinBuild.160101.0800)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="17.12.40475.34449" />
+    <build:Item Name="ProjectGUID" Value="{2fabdf39-a3a3-4497-95ba-5aee089ebf0f}" />
+    <build:Item Name="OptimizingToolset" Value="None" />
+    <build:Item Name="TargetRuntime" Value="Native" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="0.0.0.0" />
+    <build:Item Name="WindowsMobile" Version="10.0.26100.0" />
+    <build:Item Name="MakePri.exe" Version="10.0.26100.2454 (WinBuild.160101.0800)" />
+  </build:Metadata>
+</Package>

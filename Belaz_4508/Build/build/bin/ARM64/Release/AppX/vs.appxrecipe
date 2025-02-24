@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOME-PC</Machine>
+    <WindowsUser>SE_001</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|ARM64</SolutionConfiguration>
+    <PackageArchitecture>arm64</PackageArchitecture>
+    <PackageIdentityName>f470ff4d-a545-4550-9ec4-d80776f1db76</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Mining University</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\obj\Belaz_4508_2\ARM64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\bin\ARM64\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5215A2DD29634E7C3815D064C46B4A8668558B83C3C4C0C6EC5238E456194CF1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Belaz45082_1.0.0.0_arm64__25bcawygjsxj2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Belaz45082_25bcawygjsxj2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Belaz45082</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Mining University</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\bin\ARM64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:30:26.981</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\bin\ARM64\Release\Belaz_4508_2.exe">
+      <PackagePath>Belaz_4508_2.exe</PackagePath>
+      <Modified>2025-02-20T15:25:45.041</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity 2023.2.20f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.winmd">
+      <PackagePath>UnityPlayer.winmd</PackagePath>
+      <Modified>2024-04-19T18:14:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity 2023.2.20f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\UnityPlayer.dll">
+      <PackagePath>UnityPlayer.dll</PackagePath>
+      <Modified>2024-04-19T18:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\bin\ARM64\Release\Belaz_4508_2.winmd">
+      <PackagePath>Belaz_4508_2.winmd</PackagePath>
+      <Modified>2025-02-19T10:30:25.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.856</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.858</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2025-02-19T10:26:24.855</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\StoreManifest.xml">
+      <PackagePath>StoreManifest.xml</PackagePath>
+      <Modified>2025-02-19T10:26:24.854</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\nativePlugins.txt">
+      <PackagePath>Data\nativePlugins.txt</PackagePath>
+      <Modified>2025-02-19T10:26:24.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\il2cpp_data\Metadata\global-metadata.dat">
+      <PackagePath>Data\il2cpp_data\Metadata\global-metadata.dat</PackagePath>
+      <Modified>2025-02-19T10:26:22.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\il2cpp_data\Resources\mscorlib.dll-resources.dat">
+      <PackagePath>Data\il2cpp_data\Resources\mscorlib.dll-resources.dat</PackagePath>
+      <Modified>2025-02-19T10:26:21.395</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\globalgamemanagers">
+      <PackagePath>Data\globalgamemanagers</PackagePath>
+      <Modified>2025-02-20T15:23:28.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\level0">
+      <PackagePath>Data\level0</PackagePath>
+      <Modified>2025-02-20T15:23:28.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\Resources\unity_builtin_extra">
+      <PackagePath>Data\Resources\unity_builtin_extra</PackagePath>
+      <Modified>2025-02-20T15:23:28.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\Resources\unity default resources">
+      <PackagePath>Data\Resources\unity default resources</PackagePath>
+      <Modified>2025-02-19T10:26:24.859</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\globalgamemanagers.assets">
+      <PackagePath>Data\globalgamemanagers.assets</PackagePath>
+      <Modified>2025-02-20T15:23:28.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\resources.assets">
+      <PackagePath>Data\resources.assets</PackagePath>
+      <Modified>2025-02-20T15:23:28.744</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\sharedassets0.assets">
+      <PackagePath>Data\sharedassets0.assets</PackagePath>
+      <Modified>2025-02-20T15:23:28.759</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\globalgamemanagers.assets.resS">
+      <PackagePath>Data\globalgamemanagers.assets.resS</PackagePath>
+      <Modified>2025-02-20T15:23:28.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\resources.assets.resS">
+      <PackagePath>Data\resources.assets.resS</PackagePath>
+      <Modified>2025-02-20T15:23:28.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\sharedassets0.assets.resS">
+      <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
+      <Modified>2025-02-20T15:23:28.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\RuntimeInitializeOnLoads.json">
+      <PackagePath>Data\RuntimeInitializeOnLoads.json</PackagePath>
+      <Modified>2025-02-19T10:26:24.900</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\ScriptingAssemblies.json">
+      <PackagePath>Data\ScriptingAssemblies.json</PackagePath>
+      <Modified>2025-02-19T10:26:24.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\MicrosoftOpenXRPlugin\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2025-02-19T10:26:24.894</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json">
+      <PackagePath>Data\UnitySubsystems\UnityOpenXR\UnitySubsystemsManifest.json</PackagePath>
+      <Modified>2025-02-19T10:26:24.889</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\sharedassets0.resource">
+      <PackagePath>Data\sharedassets0.resource</PackagePath>
+      <Modified>2025-02-20T15:23:28.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\Data\boot.config">
+      <PackagePath>Data\boot.config</PackagePath>
+      <Modified>2025-02-20T15:23:28.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\openxr_loader.dll">
+      <PackagePath>openxr_loader.dll</PackagePath>
+      <Modified>2025-02-19T10:26:24.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\UnityOpenXR.dll">
+      <PackagePath>UnityOpenXR.dll</PackagePath>
+      <Modified>2025-02-19T10:26:24.881</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\MicrosoftOpenXRPlugin.dll">
+      <PackagePath>MicrosoftOpenXRPlugin.dll</PackagePath>
+      <Modified>2025-02-19T10:26:24.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\Belaz_4508_2\UnityOpenXRHands.dll">
+      <PackagePath>UnityOpenXRHands.dll</PackagePath>
+      <Modified>2025-02-19T10:26:24.880</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\bin\ARM64\Release\GameAssembly.dll">
+      <PackagePath>GameAssembly.dll</PackagePath>
+      <Modified>2025-02-19T10:30:22.791</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity 2023.2.20f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\baselib.dll">
+      <PackagePath>baselib.dll</PackagePath>
+      <Modified>2024-04-19T18:14:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files\Unity 2023.2.20f1\Editor\Data\PlaybackEngines\MetroSupport\Players\UAP\il2cpp\ARM64\Release\WinPixEventRuntime_UAP.dll">
+      <PackagePath>WinPixEventRuntime_UAP.dll</PackagePath>
+      <Modified>2024-04-19T17:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\SE_001\Documents\UnityProjects\Belaz_4508\Build\build\bin\ARM64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2025-02-19T10:30:26.557</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.33519.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.33519.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
